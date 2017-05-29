@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/typhoon/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.message">
+		<item name="wcf.message.cd"><![CDATA[Countdown]]></item>
+
+		<item name="wcf.message.cd.days"><![CDATA[Tage]]></item>
+		<item name="wcf.message.cd.hours"><![CDATA[Stunden]]></item>
+		<item name="wcf.message.cd.minutes"><![CDATA[Minuten]]></item>
+		<item name="wcf.message.cd.seconds"><![CDATA[Sekunden]]></item>
+
+		<item name="wcf.message.cd.datetime"><![CDATA[Datum]]></item>
+		<item name="wcf.message.cd.message"><![CDATA[End Nachricht]]></item>
+
+		<item name="wcf.message.cd.end"><![CDATA[Ende]]></item>
+
+	</category>
+
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.message.countdown"><![CDATA[Countdown]]></item>
+		<item name="wcf.acp.group.option.user.message.canViewCountdown"><![CDATA[Kann Countdown sehen]]></item>
+	</category>
+</language>

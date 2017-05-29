@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/typhoon/package.xsd" name="de.fabihome.wsc.editor.countdown">
+    <packageinformation>
+        <packagename><![CDATA[Redactor - Countdown]]></packagename>
+        <packagedescription><![CDATA[Extends the Redactor to create Countdowns in Postings ]]></packagedescription>
+        <packagedescription language="de"><![CDATA[Erweitert den Redactor zum erstellen von Countdowns in Beiträgen]]></packagedescription>
+        <version>2.0.0</version>
+        <date>2017-05-29</date>
+        <license><![CDATA[All rights reserved <https://fabihome.de/license.html>]]></license>
+    </packageinformation>
+
+    <authorinformation>
+        <author><![CDATA[Fabian "Fabi_995"]]></author>
+        <authorurl><![CDATA[http://www.fabihome.de]]></authorurl>
+    </authorinformation>
+
+    <requiredpackages>
+        <requiredpackage minversion="3.0.0">com.woltlab.wcf</requiredpackage>
+    </requiredpackages>
+
+    <excludedpackages>
+        <excludedpackage version="3.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+    </excludedpackages>
+
+    <instructions type="install">
+
+	    <!-- files -->
+	    <instruction type="file" />
+	    <instruction type="template" />
+
+	    <!-- xml -->
+	    <instruction type="bbcode" />
+	    <instruction type="templateListener" />
+	    <instruction type="userGroupOption" />
+
+	    <!-- language -->
+	    <instruction type="language" />
+
+    </instructions>
+
+</package>
