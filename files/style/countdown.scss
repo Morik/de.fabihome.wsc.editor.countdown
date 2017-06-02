@@ -1,9 +1,9 @@
 .countdown {
-  text-align: center;
-  font-size: 35px;
-
-  div {
-    padding: 5px;
-    display: inline-block;
-  }
+	text-align: center;
+	font-size: 35px;
+	
+	& > .countdownClock div {
+		padding: 5px;
+		display: inline-block;
+	}
 }
