@@ -38,7 +38,7 @@ define(['WoltLabSuite/Core/Timer/Repeating'], function(Repeating) {
 					if (t.total <= 0) {
 						elHide(elBySel('.countdownClock', clock));
 						elShow(elBySel('.countdownMessage', clock));
-						clock.classList.remove("countdown");
+						clock.classList.remove("active");
 					}
 				}
 			}
