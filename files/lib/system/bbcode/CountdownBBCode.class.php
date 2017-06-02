@@ -19,8 +19,6 @@ class CountdownBBCode extends AbstractBBCode{
 		if ($parser->getOutputType() == 'text/html') {
 			WCF::getTPL()->assign(array(
 				'datetime' => (!empty($openingTag['attributes'][1]) ? $openingTag['attributes'][1] : ''),
-				'countdownID' => StringUtil::getRandomID(),
-
 			));
 			return WCF::getTPL()->fetch('countdownBBCodeTag');
 		}

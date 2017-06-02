@@ -8,7 +8,7 @@
 		</script>
 	{/if}
 	
-	<div id="countdown{$countdownID}" class="countdown" data-deadline="{$datetime}">
+	<div class="countdown" data-deadline="{$datetime}">
 		<div class="countdownMessage" style="display:none;">
 			<!-- META_CODE_INNER_CONTENT -->
 		</div>
