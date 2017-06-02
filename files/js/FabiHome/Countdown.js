@@ -29,7 +29,7 @@ define(['WoltLabSuite/Core/Timer/Repeating'], function(Repeating) {
 		_refresh: function() {
 			for(var i = 0; i < _elements.length; i++) {
 				var clock = _elements[i];
-				if(clock.classList.contains("countdown")) {
+				if(clock.classList.contains("active")) {
 					var t = this.getTimeRemaining(elData(clock, 'deadline'));
 					elBySel('.countdownDay', clock).innerHTML = t.days;
 					elBySel('.countdownHour', clock).innerHTML = ('00' + t.hours).slice(-2);
