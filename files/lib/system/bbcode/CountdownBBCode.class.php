@@ -1,7 +1,6 @@
 <?php
 namespace wcf\system\bbcode;
 use wcf\system\WCF;
-use wcf\util\StringUtil;
 
 /**
  * Parses the [countdown] bbcode tag.
