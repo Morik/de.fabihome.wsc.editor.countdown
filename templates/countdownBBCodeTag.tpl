@@ -45,7 +45,7 @@
         }
 
         var deadline = '{$datetime}';
-        initializeClock('countdown-{$countdownID}', deadline, '{if $content}{$content}{else}{lang}wcf.message.cd.end{/lang}{/if}');
+        initializeClock('countdown-{$countdownID}', deadline, '<!-- META_CODE_INNER_CONTENT -->');
     })();
 </script>
 

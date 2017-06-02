@@ -9,6 +9,7 @@
             'wcf.message.cd': '{@"wcf.message.cd"|language|encodeJS}',
             'wcf.message.cd.datetime': '{@"wcf.message.cd.datetime"|language|encodeJS}',
             'wcf.message.cd.message': '{@"wcf.message.cd.message"|language|encodeJS}',
+            'wcf.message.cd.insert': '{@"wcf.message.cd.insert"|language|encodeJS}',
             {/if}]]></templatecode>
         </templatelistener>
 

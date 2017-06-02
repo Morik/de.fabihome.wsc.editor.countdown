@@ -12,17 +12,17 @@ use wcf\util\StringUtil;
  */
 class CountdownBBCode extends AbstractBBCode{
 
-    /**
-     * @see BBCode::getParsedTag()
-     */
-    public function getParsedTag(array $openingTag, $content, array $closingTag, BBCodeParser $parser) {
-        if ($parser->getOutputType() == 'text/html') {
-            WCF::getTPL()->assign(array(
-                'content' => $content,
-                'datetime' => (!empty($openingTag['attributes'][0]) ? $openingTag['attributes'][0] : ''),
-                'countdownID' => StringUtil::getRandomID(),
-            ));
-            return WCF::getTPL()->fetch('countdownBBCodeTag');
-        }
-    }
+	/**
+	 * @see BBCode::getParsedTag()
+	 */
+	public function getParsedTag(array $openingTag, $content, array $closingTag, BBCodeParser $parser) {
+		if ($parser->getOutputType() == 'text/html') {
+			WCF::getTPL()->assign(array(
+				'datetime' => (!empty($openingTag['attributes'][1]) ? $openingTag['attributes'][1] : ''),
+				'countdownID' => StringUtil::getRandomID(),
+
+			));
+			return WCF::getTPL()->fetch('countdownBBCodeTag');
+		}
+	}
 }

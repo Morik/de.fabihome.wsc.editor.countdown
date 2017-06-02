@@ -5,6 +5,18 @@
             <classname><![CDATA[wcf\system\bbcode\CountdownBBCode]]></classname>
             <allowedchildren>none</allowedchildren>
             <sourcecode>1</sourcecode>
+            <attributes>
+                <attribute name="0">
+                    <required>0</required>
+                    <usetext>0</usetext>
+                </attribute>
+            </attributes>
+            <attributes>
+                <attribute name="1">
+                    <required>0</required>
+                    <usetext>0</usetext>
+                </attribute>
+            </attributes>
         </bbcode>
     </import>
 </data>

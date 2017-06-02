@@ -11,6 +11,8 @@
 		<item name="wcf.message.cd.datetime"><![CDATA[Datum]]></item>
 		<item name="wcf.message.cd.message"><![CDATA[End Nachricht]]></item>
 
+		<item name="wcf.message.cd.insert"><![CDATA[Einfügen]]></item>
+
 		<item name="wcf.message.cd.end"><![CDATA[Ende]]></item>
 
 	</category>
