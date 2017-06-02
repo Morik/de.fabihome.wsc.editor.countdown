@@ -11,9 +11,7 @@ define(['WoltLabSuite/Core/Timer/Repeating'], function(Repeating) {
 		},
 		
 		getTimeRemaining: function(endtime) {
-			console.log(endtime);
-			console.log(Date.parse(endtime));
-			
+
 			var t = Date.parse(endtime) - Date.parse(new Date());
 			var seconds = Math.floor((t / 1000) % 60);
 			var minutes = Math.floor((t / 1000 / 60) % 60);
