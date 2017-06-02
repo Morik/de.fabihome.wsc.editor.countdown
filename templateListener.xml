@@ -17,7 +17,20 @@
             <environment>user</environment>
             <templatename>wysiwyg</templatename>
             <eventname>redactorConfig</eventname>
-            <templatecode><![CDATA[config.plugins.push('countdown');]]></templatecode>
+            <templatecode><![CDATA[{if $__wcf->getBBCodeHandler()->isAvailableBBCode('countdown')}
+    // button options
+    buttonOptions['countdown'] = {
+        icon: 'fa-clock-o',
+        title: '{"wcf.message.cd"|language|encodeJS}'
+    };
+
+    // add button
+    buttonMobile.push('countdown');
+    buttons.push('countdown');
+
+    // add plugin
+    config.plugins.push('countdown');
+{/if}]]></templatecode>
         </templatelistener>
 
         <templatelistener name="pluginInclude">

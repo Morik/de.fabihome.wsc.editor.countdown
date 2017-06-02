@@ -14,7 +14,6 @@ RedactorPlugins.countdown = function() {
 	return {
 		init: function() {
 			var button = this.button.add('countdown', WCF.Language.get('wcf.message.cd'));
-			this.button.setIcon(button, '<span class="icon icon16 fa-clock-o"></span>');
 			this.button.addCallback(button, this.countdown.show);
 		},
 
